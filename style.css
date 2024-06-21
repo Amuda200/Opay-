@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0FA860; /* Opay's primary green background color */
+    color: #FFFFFF; /* White text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000; /* Opay's black header background color */
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #FFFFFF; /* White background for main content */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-section {
+    margin-bottom: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0FA860; /* Opay's primary green button color */
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0C7E4C; /* Darker shade for button hover effect */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000; /* Opay's black footer background color */
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
